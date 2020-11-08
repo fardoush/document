@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+ body{
+ 
+overflow-x: hidden;
+} 
+
+ .sidebar{
+    width: 24%;
+    background: rgb(33, 129, 238);
+    /* background: rgb(82, 152, 243);  */
+    height:100%;
+    position: fixed;
+}
+
+
+.logo h2{
+    padding: 5%;
+}
+.sidebar ul li{
+    padding: 10px;
+}
+.sidebar ul li:hover {
+    background: rgb(82, 152, 243); 
+    color: #fff;
+   
+}
+.sidebar ul li a{
+    padding-top: 50px;
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+
+.round{
+
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    float: right;
+    border: none;
+    font-size: 24px;
+    line-height: 1.33;
+    background: rgb(82, 152, 243);
+    margin-left: 20%;
+    margin-top: 25%;
+    margin-right: 50px;
+}
+
+button:focus{
+    outline: none;
+}
+.round i{
+    color: #fff;
+    font-size: 30px;
+}
+/* === start === */
+
+.start{
+width: 70%;
+}
+.logo-img {
+    width: 100%;
+
+}
+.logo-img img {
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+#start, #html, #css, #logo, #headline, #js, #feature, #services, #footer_logo, #background{
+    display: none;
+}
+
+
+/* === responsive === */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768) {
+
+    .sidebar{
+        width: 24%;
+        background: rgb(33, 129, 238);
+        /* background: rgb(82, 152, 243);  */
+        height:100%;
+        position: fixed;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768) {
+
+    .sidebar{
+        width: 24%;
+        background: rgb(33, 129, 238);
+        /* background: rgb(82, 152, 243);  */
+        height:100%;
+        position: fixed;
+    }
+
+}
